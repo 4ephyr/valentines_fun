@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Watermark />
-      <div className="bg-primary h-[70vh] w-full flex justify-center items-center font-sans">
+      <div className="h-[70vh] w-full flex justify-center items-center font-sans">
         <Box />
       </div>
     </>
