@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import Box from './components/Box'
+import Watermark from './components/Watermark'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="bg-primary h-screen w-full flex justify-center items-center font-sans">
+    <Watermark />
+      <div className="bg-primary h-[70vh] w-full flex justify-center items-center font-sans">
         <Box />
       </div>
     </>
