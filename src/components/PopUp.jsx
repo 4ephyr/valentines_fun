@@ -13,7 +13,7 @@ function Popup({ onClose, yesSure, content }) {
   }, [isShaking]);
 
   return (
-    <div className={`bg-gray-400 rounded-md shadow-xl antialiased ${isShaking ? 'animate-shake' : ''} absolute top-0 bg-opacity-50 border border-primary flex items-center justify-center`}>
+    <div className={`bg-gray-400 rounded-md shadow-xl antialiased ${isShaking ? 'animate-shake' : ''} absolute top-0 phone:top-6 bg-opacity-50 border border-primary flex items-center justify-center`}>
       <div className="bg-primary p-8 rounded-md">
         <h2 className="text-2xl font-bold mb-4 text-black z-50">{content}</h2>
         <div className="flex gap-x-4">

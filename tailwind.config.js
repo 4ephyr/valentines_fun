@@ -11,7 +11,7 @@ export default {
         secondary: '#e40814',
       },
       screens: {
-        phone: { 'max' : '400px' },
+        phone: { 'max' : '500px' },
       }
     },
   },
