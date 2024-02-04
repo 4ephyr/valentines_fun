@@ -10,9 +10,6 @@ export default {
         primary: '#F5FEFD',
         secondary: '#e40814',
       },
-      fontFamily: {
-        primary: ["Encode Sans", 'sans-serif'],
-      },
       screens: {
         phone: { 'max' : '400px' },
       }
